@@ -6,7 +6,9 @@ function App() {
   return (
     <div>
       <h1>TABLA DE PUNTOS</h1>
-      {/* <ExcelUploader /> */}
+{/*       <ExcelUploader />
+
+      <h1>---------------------------------------</h1> */}
       <ArrayUploader />
     </div>
   );
