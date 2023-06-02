@@ -1,6 +1,7 @@
 import React from "react";
 import ExcelUploader from "../src/components/ExcelUploader";
 import ArrayUploader from "./components/ArrayUploader";
+import ExcelToTable from "./components/ExcelToTable"
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 {/*       <ExcelUploader />
 
       <h1>---------------------------------------</h1> */}
-      <ArrayUploader />
+      <ExcelToTable />
     </div>
   );
 }
